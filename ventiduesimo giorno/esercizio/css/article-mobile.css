@@ -1,0 +1,32 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#article {
+    background-color: #FBF7E3;
+    color: #612406;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 400px;
+    height: 70vh;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 16px;
+}
+
+#info {
+display: flex;
+flex-direction: column;
+}
+
+#info > h4 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+div.illustrazione {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

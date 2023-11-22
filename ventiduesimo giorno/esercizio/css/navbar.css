@@ -1,0 +1,32 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+ul {
+    border: 1px solid #e0c53f;
+    background-color: #FBF7E3;
+    border-radius: 50px;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li > button {
+    background-color: #F3DF85;
+    color: #612406;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    height: 70px;
+    width: 180px;
+}
